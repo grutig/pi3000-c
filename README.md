@@ -108,6 +108,6 @@ SIMH Copyright (c) 1993-2005, Robert M Supnik
 HP3000 emulator Copyright (c) 2011-2021, J. David Bryan
 
 DISCLAIMER
-
+ 
 Il sistema operativo MPE è (C)Hewlett-Packard e viene utilizzato in Fair Use con finalità storiche ed educative.
 Tutti i diritti e crediti vanno direttamente ai legittimi proprietari, e non c'è nessuna intenzione di violare copyright. 

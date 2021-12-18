@@ -57,57 +57,58 @@ No copyright infringment intended.
   
 --------------------------------  
   
-# Pi3000 release c
-Dicembre 2021
-
-Emulatore SIMH per HP3000/CLASSIC (Series III)
-download link: https://www.i8zse.eu/project-pi3000-release-c/
-
-Ho aggiornato l'emulatore HP3000 alla versione 10, e riorganizzato complessivamente il progetto.
-
-Per consentire una più amplia utilizzabilità ora è un pacchetto - installabile su varie piattaforme -
-contenuto in un singolo file .zip. E' sufficiente scompattare il file zip in una directory a scelta 
-e rinominare l'eseguibile compilato per la propria piattaforma, contenuto nella directori /bin, 
-eliminando l'estensione:
-
-hp3000.bsd   FreeBSD	
-hp3000.linux Linux x86
-hp3000.osx   MacOSx
-hp3000.rpi2  Raspberry Pi2
-hp3000.rpi4  Raspberri Pi4
-
-Per windows, l'eseguibile hp3000.exe deve rimanere inalterato, è sufficiente usare i suoi batch specifici (.cmd)
-
-ci sono due batch 
-mpe-auto:
-avvia il sistema operativo MPE saltando la fase di configuerazione iniziale
-mpe-man:
-avvia il sistema operativo MPE in modo tradizionale.
-
-La configurazione prevede due dischi fissi (un 7920 ed un 7925), una unità a nastro 7970
-
-Il sistema operativo è derivato dal software kit disponibile su http://simh.trailing-edge.com/hp/
-Oltre al sistema operativo, nell'immagine è preinstallato il nastro della Contributed Software Library HP3000
-Release 7 del 1981. La Contributed Library era una libreria di software non commerciale e liberamente utilizzabile, 
-distribuito dai regional user group HP3000. 
-L'elenco dei file installati è consultabile su http://www.3kranger.com/HP3000/CSL/CSL7STDL.txt
-Tutti i file sono documentati nel gruppo DOC.MAINLIB; i file possono essere letti usando il comando
-:EDITOR
-/TEXT <nomefile>.DOC.MAINLIB
-/LIST ALL
-/EXIT
-Tutti i sorgenti sono in SOURCE.MAINLIB.
-E' inoltre presente un account MGR.GAMES con alcuni giochi, mentre su ADV.GAMES è disponibile il porting per
-hp3000 di Colossal Cave.
-
-Segnalo a chi fosse interessato altri due siti per approfondire l'argomento HP3000:
-Managing HP 3000 Systems – for Complete Novices su http://www.3kranger.com/Interact/stachnik/Stachnik.shtm 
-I manuale originali sono invece disponibili su http://www.bitsavers.org/pdf/hp/3000/
-
-SIMH Copyright (c) 1993-2005, Robert M Supnik
-HP3000 emulator Copyright (c) 2011-2021, J. David Bryan
-
-DISCLAIMER
- 
-Il sistema operativo MPE è (C)Hewlett-Packard e viene utilizzato in Fair Use con finalità storiche ed educative.
-Tutti i diritti e crediti vanno direttamente ai legittimi proprietari, e non c'è nessuna intenzione di violare copyright. 
+# Pi3000 release c  
+Dicembre 2021  
+  
+Emulatore SIMH per HP3000/CLASSIC (Series III)  
+download link: https://www.i8zse.eu/project-pi3000-release-c/  
+  
+Ho aggiornato l'emulatore HP3000 alla versione 10, e riorganizzato complessivamente il progetto.  
+  
+Per consentire una più amplia utilizzabilità ora è un pacchetto - installabile su varie piattaforme -  
+contenuto in un singolo file .zip. E' sufficiente scompattare il file zip in una directory a scelta   
+e rinominare l'eseguibile compilato per la propria piattaforma, contenuto nella directori /bin,   
+eliminando l'estensione:  
+  
+hp3000.bsd   FreeBSD	  
+hp3000.linux Linux x86  
+hp3000.osx   MacOSx  
+hp3000.rpi2  Raspberry Pi2  
+hp3000.rpi4  Raspberri Pi4  
+  
+Per windows, l'eseguibile hp3000.exe deve rimanere inalterato, è sufficiente usare i suoi batch specifici (.cmd)  
+  
+ci sono due batch   
+mpe-auto:  
+avvia il sistema operativo MPE saltando la fase di configuerazione iniziale  
+mpe-man:  
+avvia il sistema operativo MPE in modo tradizionale.  
+  
+La configurazione prevede due dischi fissi (un 7920 ed un 7925), una unità a nastro 7970  
+  
+Il sistema operativo è derivato dal software kit disponibile su http://simh.trailing-edge.com/hp/  
+Oltre al sistema operativo, nell'immagine è preinstallato il nastro della Contributed Software Library HP3000  
+Release 7 del 1981. La Contributed Library era una libreria di software non commerciale e liberamente utilizzabile,   
+distribuito dai regional user group HP3000.   
+L'elenco dei file installati è consultabile su http://www.3kranger.com/HP3000/CSL/CSL7STDL.txt  
+Tutti i file sono documentati nel gruppo DOC.MAINLIB; i file possono essere letti usando il comando  
+:EDITOR  
+/TEXT <nomefile>.DOC.MAINLIB  
+/LIST ALL  
+/EXIT  
+Tutti i sorgenti sono in SOURCE.MAINLIB.  
+E' inoltre presente un account MGR.GAMES con alcuni giochi, mentre su ADV.GAMES è disponibile il porting per  
+hp3000 di Colossal Cave.  
+  
+Segnalo a chi fosse interessato altri due siti per approfondire l'argomento HP3000:  
+Managing HP 3000 Systems – for Complete Novices su http://www.3kranger.com/Interact/stachnik/Stachnik.shtm   
+I manuale originali sono invece disponibili su http://www.bitsavers.org/pdf/hp/3000/  
+  
+SIMH Copyright (c) 1993-2005, Robert M Supnik  
+HP3000 emulator Copyright (c) 2011-2021, J. David Bryan  
+  
+DISCLAIMER  
+   
+Il sistema operativo MPE è (C)Hewlett-Packard e viene utilizzato in Fair Use con finalità storiche ed educative.  
+Tutti i diritti e crediti vanno direttamente ai legittimi proprietari, e non c'è nessuna intenzione di violare copyright.   
+  

@@ -1,4 +1,4 @@
-#Pi3000 release c
+# Pi3000 release c
 December 2021
 
 SIMH emulator for HP3000 / CLASSIC (Series III)
@@ -57,7 +57,7 @@ No copyright infringment intended.
 
 --------------------------------
 
-#Pi3000 release c
+# Pi3000 release c
 Dicembre 2021
 
 Emulatore SIMH per HP3000/CLASSIC (Series III)
